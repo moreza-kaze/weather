@@ -1,0 +1,41 @@
+@use "./assets/color.scss";
+@use "./assets/mediaQuery.scss";
+
+.mainBg{
+  min-height: 100vh;
+  background-color: color.$background-color;
+}
+.title{
+  margin: auto;
+  color: color.$text-color;
+}
+.rounded-lg{
+  border-color: color.$primary-color;
+  border-radius: 10px;
+}
+.search-box{
+  background-color: transparent;
+  color: color.$primary-color;
+}
+.border-search{
+  background-color: color.$background-color;
+  border: 2px solid color.$primary-color;
+  transition: all;
+  transition-duration: 500ms;
+}
+.pointer-courser{
+  cursor: pointer;
+}
+.border-weather{
+  border: 1px solid color.$primary-color;
+  transition: all;
+  transition-duration: 500ms;
+}
+.z-10{
+ z-index: 10;
+}
+.text-white{
+  color: color.$primary-color;
+}
+
+

@@ -1,0 +1,32 @@
+@media (min-width: 576px) { 
+  
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  .search-box-px {
+    padding-left: 6rem!important;
+    padding-right: 6rem!important;
+  }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  .search-box-px {
+    padding-left: 11rem!important;
+    padding-right: 14rem!important;
+  }
+ }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  .search-box-px {
+    padding-left: 20rem!important;
+    padding-right: 20rem!important;
+  }
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { 
+  
+ }
